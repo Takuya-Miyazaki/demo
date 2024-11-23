@@ -1,0 +1,21 @@
+Run github/dependabot-action@main
+  env:
+    GITHUB_TOKEN: ***
+    GITHUB_DEPENDABOT_JOB_TOKEN: ***
+    GITHUB_DEPENDABOT_CRED_TOKEN: ***
+🤖 ~ starting update ~
+Fetching job details
+Pulling updater images
+  Pulling image ghcr.io/dependabot/dependabot-updater-npm:cf181fa1dc5aac32f954b4919607f73957acb1b6...
+  Pulled image ghcr.io/dependabot/dependabot-updater-npm:cf181fa1dc5aac32f954b4919607f73957acb1b6
+  Pulling image ghcr.io/github/dependabot-update-job-proxy/dependabot-update-job-proxy:v2.0.20241004183849@sha256:5e895b5edfaba72e99d0a19b43f386b18b65fc08a2d43af5aedd6360cda56842...
+  Pulled image ghcr.io/github/dependabot-update-job-proxy/dependabot-update-job-proxy:v2.0.20241004183849@sha256:5e895b5edfaba72e99d0a19b43f386b18b65fc08a2d43af5aedd6360cda56842
+Starting update process
+Created proxy container: e9f3a75228b0017ca90f0bd1c1b0de10c49d9585bc783a84e95f26517088ab49
+  proxy | exec /bin/sh: exec format error
+Error: Dependabot encountered an error performing the update
+
+Error: (HTTP code 304) container already stopped -  
+
+For more information see: ... (write access to the repository is required to view the log)
+🤖 ~ finished: error reported to Dependabot ~
